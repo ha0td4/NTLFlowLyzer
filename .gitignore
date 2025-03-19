@@ -1,6 +1,17 @@
-*.egg-info
 build.log
 build
 dist
 *.csv
 *.swp
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+.eggs/
+wheels/
+MANIFEST
